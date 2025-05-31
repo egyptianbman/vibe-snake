@@ -3,8 +3,10 @@ const ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+canvas.style.width = `${window.innerWidth}px`;
+canvas.style.height = `${window.innerHeight}px`;
 
-const scale = 20;
+const scale = 40;
 let snake = [{ x: 8 * scale, y: 8 * scale }];
 let dir = { x: 0, y: 0 };
 let food = { x: Math.floor(Math.random() * canvas.width / scale) * scale, y: Math.floor(Math.random() * canvas.height / scale) * scale };
