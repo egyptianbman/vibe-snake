@@ -1,0 +1,3 @@
+# conventional commits git
+The user has requested using conventional commits and committing often for all project updates.
+
